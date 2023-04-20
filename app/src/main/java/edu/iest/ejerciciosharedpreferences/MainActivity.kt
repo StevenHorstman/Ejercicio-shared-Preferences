@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     private var swConfig: Switch? = null
     private var bnAceptar: Button? = null
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -64,7 +65,7 @@ class MainActivity : AppCompatActivity() {
         val name = preferencias?.getString("NAME", "").toString()
         val altura = preferencias?.getFloat("ALTURA", 0F)
         val edad = preferencias?.getInt("EDAD",0)
-        val dinero =preferencias?.getFloat("Dinero", 0F)
+        val dinero =preferencias?.getFloat("DINERO", 0F)
 
         etNombre?.setText(name)
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/options_menu_vertical"
+        android:title="Mostrar en forma vertical"
+        android:icon="@drawable/ic_android_black_24dp"
+        app:showAsAction="always"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/option_menu_Horizontal"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="Mostrar en forma Horizontal"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/options_menu_filas_dos"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="Mostrar en dos filas"></item>
+    <item
+        android:id="@+id/options_menu_filas_tres"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="Mostrar tres filas"></item>
+</menu>
